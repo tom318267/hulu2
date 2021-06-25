@@ -9,6 +9,7 @@ import {
   SearchIcon,
   UserIcon,
 } from "@heroicons/react/outline";
+import hulu from "../assets/hulu-white.png";
 const Header = () => {
   return (
     <div className="Header flex flex-col sm:flex-row m-5 justify-between items-center h-auto">
@@ -22,7 +23,7 @@ const Header = () => {
       </div>
       <Image
         className="object-contain"
-        src="https:///links.papareact.com/ua6"
+        src={hulu}
         alt="logo"
         width={200}
         height={100}
